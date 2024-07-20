@@ -6,6 +6,7 @@ const Images = [
   {name:'canap',ratio:.9,title:'Desrption',format:'png'},
   {name:'astronaut',ratio:1,title:'Desrption',format:'png'},
   {name:'gamer',ratio:.8,title:'Desrption',format:'png'},
+  {name:'designers',ratio:1,title:'Desrption',format:'jpg'},
   {name:'gardener',ratio:.7,title:'Desrption',format:'jpg'},
   {name:'harden',ratio:1,title:'Desrption',format:'png'},
   {name:'lebron',ratio:.9,title:'Desrption',format:'png'},
