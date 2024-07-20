@@ -1,0 +1,78 @@
+/*
+
+developped with love by Maranaho N'GUESSAN
+
+ __    __   ______   ______   ______   __   __   ______   __  __   ______
+/\ "-./  \ /\  __ \ /\  == \ /\  __ \ /\ "-.\ \ /\  __ \ /\ \_\ \ /\  __ \
+\ \ \-./\ \\ \  __ \\ \  __< \ \  __ \\ \ \-.  \\ \  __ \\ \  __ \\ \ \/\ \
+ \ \_\ \ \_\\ \_\ \_\\ \_\ \_\\ \_\ \_\\ \_\\"\_\\ \_\ \_\\ \_\ \_\\ \_____\
+  \/_/  \/_/ \/_/\/_/ \/_/ /_/ \/_/\/_/ \/_/ \/_/ \/_/\/_/ \/_/\/_/ \/_____/.com
+
+
+*/
+
+@font-face {
+	font-family: 'xtra';
+	src: url('./fonts/mosk/MoskUltra-Bold900.eot');
+	src: url('./fonts/mosk/MoskUltra-Bold900.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/MoskUltra-Bold900.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+
+@font-face {
+	font-family: 'bold';
+	src: url('./fonts/mosk/MoskBold700.eot');
+	src: url('./fonts/mosk/MoskBold700.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/MoskBold700.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'reg';
+	src: url('./fonts/mosk/MoskExtra-Light200.eot');
+	src: url('./fonts/mosk/MoskExtra-Light200.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/MoskExtra-Light200.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'thin';
+	src: url('./fonts/mosk/MoskThin100.eot');
+	src: url('./fonts/mosk/MoskThin100.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/MoskThin100.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'md';
+	src: url('./fonts/mosk/MoskMedium500.eot');
+	src: url('./fonts/mosk/MoskMedium500.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/MoskMedium500.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'holiday';
+	src: url('./fonts/mosk/HolidayFreeRegular.eot');
+	src: url('./fonts/mosk/HolidayFreeRegular.eot?#iefix') format('embedded-opentype'),
+		url('./fonts/mosk/HolidayFreeRegular.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+.md{font-family: 'md'}
+.thin{font-family: 'thin'}
+.xtra{font-family: 'xtra'}
+.bold{font-family: 'bold'}
+.uppercase{text-transform: uppercase}
+.italic{font-style: italic}
+.t1{font-size: 2em}
+.t2{font-size: 1.5em}
+.t3{font-size: .8em}

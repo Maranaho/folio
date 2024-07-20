@@ -1,0 +1,55 @@
+main.illus {
+  display: flex;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 0;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.illus button {
+  background: linear-gradient(to right, #09fddf , #3cdcff);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: none;
+}
+.illustrations {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: 0.7s ease .03s;
+  height: 100vh;
+  cursor: grab;
+}
+
+.illustrations li img {
+  width: 800px;
+  cursor: pointer;
+}
+
+.imageDescription{ display: none}
+
+.NextPrv {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+.NextPrv button {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  cursor: pointer;
+}
+.NextPrv button[disabled] {
+  opacity: .2;
+  cursor: not-allowed;
+}
+.NextPrv button#prv { left: 60px }
+.NextPrv button#nxt { right: 60px }

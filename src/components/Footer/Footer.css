@@ -1,0 +1,16 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+footer section {
+  width: 90vw;
+  margin: 0 auto;
+  text-align: right;
+  padding: 20px 0;
+}
+

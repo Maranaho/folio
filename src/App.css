@@ -1,0 +1,79 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 14px;
+  background: rgba(232, 245, 255, 0.1);
+  font-family: 'md';
+  letter-spacing: .03em;
+  color: #434a55;
+}
+p { line-height: 20px }
+ul {list-style: none}
+
+
+.upe,
+a {
+  text-decoration: none;
+  color: #12dec6;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+  color: #434a55;
+  outline: none;
+}
+
+input[type="text"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  font-size: .8em;
+  padding: 3px 0;
+}
+
+ul,h1,h2,h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+li::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+a::selection,
+p::selection,
+small::selection,
+button::selection,
+span::selection,
+i::selection,
+strong::selection {
+  background: rgba(42, 234, 207, 0.8);
+  color: #fff;
+}
+
+
+.pTop { padding-top: 80px }
+@media(min-width: 1140px){
+  section {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
