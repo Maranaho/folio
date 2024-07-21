@@ -33,6 +33,7 @@ main.illus {
   flex:1;
   background-size:cover;
   background-position:center;
+  min-height: 700px;
 }
 
 .illustrations li img {
@@ -42,7 +43,7 @@ main.illus {
   object-fit:cover;
   object-position:center;
   opacity:0;
-  transition: .8s;
+  transition: .2s;
 }
 
 .illustrations li.loaded img {
