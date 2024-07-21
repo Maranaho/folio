@@ -1,6 +1,6 @@
 #presentation {
   height: 100vh;
-  background: url('/img/theme/presentation.jpg') no-repeat center  top;
+  background: url('/img/theme/presentation.jpg') no-repeat center  top #d9d9e3;
 }
 
 #presentation h2 {
