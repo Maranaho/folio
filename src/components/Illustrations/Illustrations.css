@@ -34,9 +34,11 @@ main.illus {
   background-size:cover;
   background-position:center;
   min-height: 400px;
+  border-radius: 30px;
 }
 
 .illustrations li img {
+  border-radius: 30px;
   width: 800px;
   cursor: pointer;
   height: 100%;
@@ -45,6 +47,7 @@ main.illus {
   opacity:0;
   transition: .2s;
 }
+
 
 .illustrations li.loaded img {
   opacity:1
