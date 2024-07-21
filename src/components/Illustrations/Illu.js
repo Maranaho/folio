@@ -37,7 +37,7 @@ const Illu = ({
     className={loaded?"loaded":"loading"}
     style={{
       transform:`scale(${ratio})`,
-      backgroundImage:`url(${blurs[name]})`
+      // backgroundImage:`url(${blurs[name]})`
     }}
     >
       <img
