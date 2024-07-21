@@ -35,6 +35,7 @@ main.illus {
   background-position:center;
   min-height: 400px;
   border-radius: 30px;
+  background-color:#a89bc1;
 }
 .illustrations li:nth-of-type(1) {
   background-color:#a89bc1;
@@ -78,18 +79,6 @@ main.illus {
 .illustrations li:nth-of-type(14) {
   background-color:#6aa446;
 }
-/* .illustrations li:nth-of-type(15) {
-  background-color:#6aa446;
-}
-.illustrations li:nth-of-type(16) {
-  background-color:#6aa446;
-}
-.illustrations li:nth-of-type(17) {
-  background-color:#6aa446;
-}
-.illustrations li:nth-of-type(18) {
-  background-color:#6aa446;
-} */
 
 .illustrations li img {
   border-radius: 30px;
