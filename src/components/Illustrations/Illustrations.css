@@ -29,9 +29,24 @@ main.illus {
   cursor: grab;
 }
 
+.illustrations li {
+  flex:1;
+  background-size:cover;
+  background-position:center;
+}
+
 .illustrations li img {
   width: 800px;
   cursor: pointer;
+  height: 100%;
+  object-fit:cover;
+  object-position:center;
+  opacity:0;
+  transition: .8s;
+}
+
+.illustrations li.loaded img {
+  opacity:1
 }
 
 .imageDescription{ display: none}

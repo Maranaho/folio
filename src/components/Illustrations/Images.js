@@ -18,7 +18,7 @@ const Images = [
   {name:'poker',ratio:.9,title:'Desrption',format:'png'},
   {name:'police',ratio:.8,title:'Desrption',format:'jpg'},
   {name:'shoe',ratio:.7,title:'Desrption',format:'jpg'},
-  {name:'villain',ratio:1,title:'Desrption',format:'png'},
+  // {name:'villain',ratio:1,title:'Desrption',format:'png'},
   {name:'backpack',ratio:.8,title:'Desrption',format:'png'},
   {name:'jesus',ratio:1,title:'Desrption',format:'gif'},
   {name:'basket',ratio:.8,title:'Desrption',format:'gif'},
