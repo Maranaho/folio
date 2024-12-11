@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Images from './Images'
 import Illu from './Illu'
+import BrushTeeth from '../BrushTeeth'
 import './Illustrations.css'
 import NextPrv from './NextPrv'
 
@@ -124,7 +125,10 @@ class Illustrations extends Component {
           onDragStart ={this.handleMDown}
           onDragEnd ={this.handleMUp}
           onMouseEnter ={this.setProperWidth}
-          className="illustrations">{Images
+          className="illustrations"
+        >
+          <BrushTeeth/>
+          {Images
           .map(i => {
             return (
               <Illu

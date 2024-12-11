@@ -1,0 +1,52 @@
+.BrushTeeth {
+    flex:1;
+    position: relative;
+}
+
+.BrushTeeth video {
+    filter:contrast(1.2) brightness(1.1) saturate(1.3);
+    cursor: pointer;
+    height: 75vh;
+    border-radius:30px;
+}
+
+.BrushTeeth nav {
+    position: absolute;
+    top : 15px;
+    left: 15px;
+    display: flex;
+    gap: 10px;
+    /* flex-direction: column; */
+    width: 100%;
+    width: 25px;
+}
+
+.BrushTeeth button {
+    background: none !important;
+    padding: 0 !important;
+}
+
+.BrushTeeth button:hover {
+    opacity: .6;
+}
+
+.BrushTeeth img {
+    width: 25px;
+}
+
+.BrushTeeth .pause {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0,0,0,.4);
+    border-radius:30px;
+}
+
+.BrushTeeth .pause img {
+    width: 150px;
+}
