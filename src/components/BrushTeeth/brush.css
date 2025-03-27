@@ -1,3 +1,4 @@
+.Flute,
 .BrushTeeth {
     flex:1;
     position: relative;
@@ -5,35 +6,51 @@
 
 .BrushTeeth video {
     filter:contrast(1.2) brightness(1.1) saturate(1.3);
-    cursor: pointer;
     height: 75vh;
-    border-radius:30px;
 }
 
+.Flute  {
+    width: 70vh;
+    height: 70vh;
+    margin-right: 15px;
+    /* overflow: hidden; */
+}
+.Flute video {
+    height: 100%;
+}
+.Flute video,
+.BrushTeeth video {
+    cursor: pointer;
+    border-radius:30px;
+}
+.Flute nav,
 .BrushTeeth nav {
     position: absolute;
     top : 15px;
     left: 15px;
     display: flex;
     gap: 10px;
-    /* flex-direction: column; */
     width: 100%;
     width: 25px;
 }
 
+.Flute button,
 .BrushTeeth button {
     background: none !important;
     padding: 0 !important;
 }
 
+.Flute button:hover,
 .BrushTeeth button:hover {
     opacity: .6;
 }
 
+.Flute img,
 .BrushTeeth img {
     width: 25px;
 }
 
+.Flute .pause,
 .BrushTeeth .pause {
     position: absolute;
     left: 0;
@@ -47,6 +64,7 @@
     border-radius:30px;
 }
 
+.Flute .pause img,
 .BrushTeeth .pause img {
     width: 150px;
 }

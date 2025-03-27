@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Images from './Images'
 import Illu from './Illu'
-import BrushTeeth from '../BrushTeeth'
+import {BrushTeeth,Flute} from '../BrushTeeth'
 import './Illustrations.css'
 import NextPrv from './NextPrv'
 
@@ -127,6 +127,7 @@ class Illustrations extends Component {
           onMouseEnter ={this.setProperWidth}
           className="illustrations"
         >
+          <Flute/>
           <BrushTeeth/>
           {Images
           .map(i => {
